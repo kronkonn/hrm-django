@@ -1,0 +1,20 @@
+Django==4.2.13
+pycryptodome==3.23.0       # AES-256 шифрование ПДн (ФЗ-152)
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+psycopg2-binary==2.9.9
+Pillow==10.3.0
+
+pdfplumber==0.11.9         # Извлечение текста из PDF резюме
+python-docx==1.2.0         # Извлечение текста из DOCX резюме
+reportlab==4.5.0           # Генерация PDF резюме в seed_data
+
+# ML
+xgboost==2.0.3
+shap==0.45.0
+scikit-learn==1.4.2
+statsmodels==0.14.2
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.0
